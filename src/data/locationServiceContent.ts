@@ -514,7 +514,7 @@ export const SERVICE_WHY_CHOOSE_US: Record<string, string[]> = {
     "Genuine 24/7 availability — nights, weekends, and bank holidays included",
     "Emergency engineers reach {location} {responseTime}",
     "Fully equipped vans carrying pumps, jetting gear, and repair materials",
-    "Experienced with flood-risk and sewage situations across Greater Manchester"
+    "Experienced with flood-risk and sewage situations across Nottinghamshire"
   ],
   "drain-repairs": [
     "Both no-dig relining and excavation capabilities in-house",
@@ -536,7 +536,7 @@ export const SERVICE_FAQ_TEMPLATES: Record<string, FAQTemplate[]> = {
   "blocked-drains": [
     {
       question: "How quickly can you reach {location} to clear a blocked drain?",
-      answer: "Our engineers are based across Greater Manchester and typically reach {location} {responseTime}. For urgent blockages causing flooding or sewage backup, we prioritise dispatch to minimise property damage."
+      answer: "Our engineers are based across Nottinghamshire and typically reach {location} {responseTime}. For urgent blockages causing flooding or sewage backup, we prioritise dispatch to minimise property damage."
     },
     {
       question: "What does it cost to clear a blocked drain in {location}?",
@@ -554,7 +554,7 @@ export const SERVICE_FAQ_TEMPLATES: Record<string, FAQTemplate[]> = {
     },
     {
       question: "Do you charge a call-out fee for drain unblocking in {location}?",
-      answer: "No. We never charge a call-out fee for drain unblocking in {location} or anywhere else across Greater Manchester. You only pay for the work carried out, and we confirm the price before we start."
+      answer: "No. We never charge a call-out fee for drain unblocking in {location} or anywhere else across our service area. You only pay for the work carried out, and we confirm the price before we start."
     },
     {
       question: "Should I try to unblock the drain myself before calling you?",
@@ -592,7 +592,7 @@ export const SERVICE_FAQ_TEMPLATES: Record<string, FAQTemplate[]> = {
   "emergency-drain-services": [
     {
       question: "How quickly can you respond to a drain emergency in {location}?",
-      answer: "Our emergency teams are positioned across Greater Manchester and reach {location} {responseTime}. We operate around the clock — 24 hours a day, 7 days a week, including bank holidays — so help is available whenever you need it."
+      answer: "Our emergency teams are positioned across Nottinghamshire and reach {location} {responseTime}. We operate around the clock — 24 hours a day, 7 days a week, including bank holidays — so help is available whenever you need it."
     },
     {
       question: "What counts as a drainage emergency?",
