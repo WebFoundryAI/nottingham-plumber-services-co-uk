@@ -122,7 +122,7 @@ export function getLocationFAQs(locationName: string): FAQ[] {
 export const PAGE_FAQS: FAQ[] = [
   {
     question: "How quickly can you respond to an emergency callout?",
-    answer: 'We aim to respond to <a href="/services/emergency-drain-services/" class="text-primary hover:underline">emergency drainage callouts</a> within 60-90 minutes across <a href="/locations/manchester/" class="text-primary hover:underline">Manchester</a> and Greater Manchester. Our team operates around the clock, so help is available whenever you need it, day or night.'
+    answer: 'We aim to respond to <a href="/services/emergency-drain-services/" class="text-primary hover:underline">emergency drainage callouts</a> within 60-90 minutes across <a href="/locations/nottingham/" class="text-primary hover:underline">Nottingham</a> and surrounding areas. Our team operates around the clock, so help is available whenever you need it, day or night.'
   },
   {
     question: "Do you charge a call-out fee?",
@@ -130,7 +130,7 @@ export const PAGE_FAQS: FAQ[] = [
   },
   {
     question: "What locations do you cover?",
-    answer: 'We provide drainage services throughout <a href="/locations/manchester/" class="text-primary hover:underline">Manchester</a> and Greater Manchester, including <a href="/locations/salford/" class="text-primary hover:underline">Salford</a>, <a href="/locations/stockport/" class="text-primary hover:underline">Stockport</a>, <a href="/locations/altrincham/" class="text-primary hover:underline">Altrincham</a>, Bolton, Oldham, Rochdale, Sale, Didsbury, and Chorlton. See <a href="/locations/" class="text-primary hover:underline">all locations we cover</a>.'
+    answer: 'We provide drainage services throughout <a href="/locations/nottingham/" class="text-primary hover:underline">Nottingham</a> and surrounding areas within a 25-mile radius, including <a href="/locations/mansfield/" class="text-primary hover:underline">Mansfield</a>, <a href="/locations/derby/" class="text-primary hover:underline">Derby</a>, <a href="/locations/newark-on-trent/" class="text-primary hover:underline">Newark-on-Trent</a>, Loughborough, Arnold, Ilkeston, Long Eaton, and Hucknall. See <a href="/locations/" class="text-primary hover:underline">all locations we cover</a>.'
   },
   {
     question: "What payment methods do you accept?",

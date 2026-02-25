@@ -146,7 +146,7 @@ describe('Schema Generation', () => {
   });
 
   describe('getLocationPageSchema', () => {
-    const location = LOCATIONS[0]; // manchester
+    const location = LOCATIONS[0]; // nottingham
     const result = getLocationPageSchema(location);
 
     it('returns a single object (not array)', () => {
