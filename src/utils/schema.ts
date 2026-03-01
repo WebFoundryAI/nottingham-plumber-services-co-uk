@@ -122,13 +122,14 @@ export function getBaseBusinessSchema() {
       }))
     },
     "sameAs": BRAND.socialProfiles,
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": AGGREGATE_RATING.ratingValue,
-      "reviewCount": AGGREGATE_RATING.reviewCount,
-      "bestRating": AGGREGATE_RATING.bestRating,
-      "worstRating": AGGREGATE_RATING.worstRating
-    },
+    // TODO: Add aggregateRating once real reviews have been collected for nottinghamplumberservices.co.uk
+    // "aggregateRating": {
+    //   "@type": "AggregateRating",
+    //   "ratingValue": AGGREGATE_RATING.ratingValue,
+    //   "reviewCount": AGGREGATE_RATING.reviewCount,
+    //   "bestRating": AGGREGATE_RATING.bestRating,
+    //   "worstRating": AGGREGATE_RATING.worstRating
+    // },
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": `+44${BRAND.phone.substring(1)}`,
