@@ -37,7 +37,7 @@ compatibility_date = "2024-12-20"
 [[d1_databases]]
 binding = "DB"
 database_name = "nottingham-plumber-leads"
-database_id = "" # TODO: Create D1 database and add ID here
+database_id = "49746ca9-f069-4a6b-918f-553ed8c74b91"
 
 # Build Configuration
 [build]
