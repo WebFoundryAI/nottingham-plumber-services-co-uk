@@ -12,6 +12,7 @@ export const BRAND = {
   tagline: "Fast, Reliable Plumbing Solutions",
   emergencyAvailable: true,
   ga4Id: "G-G06P5RNJS0",
+  gscVerification: "google961cee0b68e77cd7",
   socialProfiles: [
     "https://www.facebook.com/NottinghamPlumberServices",
     "https://twitter.com/NottinghamPlumber",
