@@ -56,7 +56,7 @@ const combinedPageSchema = [breadcrumbSchema, webPageSchema];
   </section>
 
   <!-- Featured Areas -->
-  {['manchester', 'salford', 'stockport', 'bolton'].map((slug, index) => {
+  {['nottingham', 'mansfield', 'derby', 'newark-on-trent'].map((slug, index) => {
     const location = LOCATIONS.find(l => l.slug === slug);
     if (!location) return null;
     const bgClass = index % 2 === 0 ? 'bg-muted/30' : '';
