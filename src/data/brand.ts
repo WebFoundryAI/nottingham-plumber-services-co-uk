@@ -11,6 +11,7 @@ export const BRAND = {
   postcode: "NG15 0DT",
   tagline: "Fast, Reliable Plumbing Solutions",
   emergencyAvailable: true,
+  ga4Id: "G-G06P5RNJS0",
   socialProfiles: [
     "https://www.facebook.com/NottinghamPlumberServices",
     "https://twitter.com/NottinghamPlumber",
