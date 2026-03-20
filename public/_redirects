@@ -2,7 +2,11 @@
 # Redirect www to non-www (canonical domain)
 # Note: HTTP to HTTPS is handled automatically by Cloudflare's SSL/TLS settings
 
-# www to non-www redirect (301 permanent)
-https://www.nottinghamplumberservices.co.uk/* https://nottinghamplumberservices.co.uk/:splat 301
-http://www.nottinghamplumberservices.co.uk/* https://nottinghamplumberservices.co.uk/:splat 301
-http://nottinghamplumberservices.co.uk/* https://nottinghamplumberservices.co.uk/:splat 301
+# www to non-www redirect (301 permanent, force override)
+https://www.nottinghamplumberservices.co.uk/* https://nottinghamplumberservices.co.uk/:splat 301!
+http://www.nottinghamplumberservices.co.uk/* https://nottinghamplumberservices.co.uk/:splat 301!
+http://nottinghamplumberservices.co.uk/* https://nottinghamplumberservices.co.uk/:splat 301!
+
+# Redirect integration sitemap-index to canonical sitemap.xml
+/sitemap-index.xml /sitemap.xml 301!
+/sitemap-0.xml /sitemap.xml 301!
