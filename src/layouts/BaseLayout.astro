@@ -95,13 +95,24 @@ const ogImage = image ? `${siteUrl}${image}` : defaultOgImage;
         }
       } catch (e) {}
     </script>
-    <!-- Google Analytics (GA4) -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-G06P5RNJS0"></script>
+    <!-- Google Analytics (GA4) — deferred via requestIdleCallback to keep off critical path -->
     <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-G06P5RNJS0');
+      (function() {
+        var ga4Id = 'G-G06P5RNJS0';
+        function loadGTM() {
+          var s = document.createElement('script');
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id;
+          s.async = true;
+          document.head.appendChild(s);
+          gtag('js', new Date());
+          gtag('config', ga4Id);
+        }
+        if (typeof requestIdleCallback === 'function') {
+          requestIdleCallback(loadGTM, { timeout: 3000 });
+        } else {
+          setTimeout(loadGTM, 2000);
+        }
+      })();
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
