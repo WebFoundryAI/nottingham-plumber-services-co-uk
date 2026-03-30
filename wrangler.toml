@@ -8,6 +8,3 @@ database_name = "nottingham-plumber-leads"
 database_id = "49746ca9-f069-4a6b-918f-553ed8c74b91"
 
 # Build Configuration
-[build]
-command = "bun install && bun run build"
-cwd = "./"
